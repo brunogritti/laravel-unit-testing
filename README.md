@@ -1,15 +1,17 @@
 ## About this project
 
-Simple laravel application to setup andrun Laravel unit tests
+Simple laravel application to setup and run Laravel unit tests
 
 ### Install
 
-`cp .env.example .env`
-`composer install`
-`php artisan key:generate`
-`php artisan migrate:fresh --seed`
-`npm install`
-`npm run build`
+```
+cp .env.example .env
+composer install
+php artisan key:generate
+php artisan migrate:fresh --seed
+npm install
+npm run build
+```
 
 Vite can break if nodejs version is behind 16.18
 
