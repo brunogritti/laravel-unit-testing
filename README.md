@@ -17,13 +17,19 @@ Vite can break if nodejs version is behind 16.18
 
 To run the tests, use the following command
 
-```php artisan test```
+```
+php artisan test
+```
 
 
 Or to run each test class individually, use:
 
-```./vendor/bin/phpunit tests/Unit/RoomTest.php```
+```
+./vendor/bin/phpunit tests/Unit/RoomTest.php
+```
 
 To setup php debuggin package, run 
 
-```sudo apt-get install php-xdebug```
+```
+sudo apt-get install php-xdebug
+```
