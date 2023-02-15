@@ -2,7 +2,8 @@
 
 namespace Tests\Unit;
 
-use PHPUnit\Framework\TestCase;
+/* use PHPUnit\Framework\TestCase; */
+use Tests\TestCase;
 
 class ExampleTest extends TestCase
 {
@@ -18,5 +19,13 @@ class ExampleTest extends TestCase
         // $name = "Jack";
         $this->assertTrue($name == "Jack");
         //$this->assertTrue(true);
+    }
+
+    public function test_the_application_returns_a_successful_response()
+    {
+        $response = $this->get('/');
+        //if it requires params $response = $this->post('/user', ['name' => 'Amy']);
+
+        $response->assertStatus(200);
     }
 }

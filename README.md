@@ -1,6 +1,6 @@
 ## About this project
 
-Simple laravel application to setup and run Laravel unit tests based on [this page](https://betterstack.com/community/guides/testing/laravel-unit-testing/)
+Simple laravel application to setup and run Laravel unit tests based on [this tutorial](https://betterstack.com/community/guides/testing/laravel-unit-testing/)
 
 ### Install
 
@@ -32,4 +32,10 @@ To setup php debuggin package, run
 
 ```
 sudo apt-get install php-xdebug
+```
+
+To show the test coverage, run 
+
+```
+XDEBUG_MODE=coverage php artisan test --coverage
 ```
